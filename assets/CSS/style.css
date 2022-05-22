@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+.Seccion_Principal{
+    color: white;
+    display: block; 
+    line-height: 1em;
+    height: 15em;
+    background-image: url("https://images.unsplash.com/photo-1518735881707-1a53be861a5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 2em 10em;
+}
+.img2{
+    width: 200px;
+    height: 150px;
+    padding:1.8em 10em;
+    display: flex;
+}
+.Sección_de_productos {
+    background-color: whitesmoke;
+    line-height: .5em;
+   
+}
+.Pie_de_Página{
+    background-color: #414143;
+    text-align: center;
+    padding: .8em;
+    color:white;
+    cursor: pointer; 
+}
+.Pie_de_Página:hover{
+    color:green
+}
