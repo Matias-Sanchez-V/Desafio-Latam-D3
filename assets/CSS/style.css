@@ -1,36 +1,112 @@
-body{
-    margin:0;
-    padding:0;
-    position: relative;
+body {
+    background-color: #000000;
 }
-.Seccion_Principal{
-    color: white;
-    display: block; 
-    line-height: 1em;
-    height: 15em;
-    background-image: url("https://images.unsplash.com/photo-1518735881707-1a53be861a5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80");
-    background-size: cover;
-    background-position: center;
-    padding: 2em 10em;
+.titulo {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 73px;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
-.img2{
-    width: 200px;
-    height: 150px;
-    padding:1.8em 10em;
+.img {
+    width: 100%;
+    background: transparent url(../img/bg-header.jpg) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    image-resolution: 100%;
+    height: 727px;
+}
+.banner {
+    width: 100%;
+}
+p {
+    color: #ffff;
+    text-align: left;
+    align-self: center;
+    font-family: 'Raleway', sans-serif;
+}
+.contenido1 {
+    width: 100%;
+    align-items: center;
+    display: table;
+    height: 348px;
+}
+.Texto {
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+.descripcion {
+    float: right;
+    height: 237px;
+    padding: 1em;
+}
+.img1 {
+    width: 55%;
+    float: left;
+    padding: 1em;
+}
+h2 {
+    color: #ffff;
+}
+.contenido2 {
+    top: 1141px;
+    left: 0px;
+    width: 100%;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 0.98;
+    height: 348px;
+}
+.Sub_Titulo {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 2em;
+}
+.iconos {
     display: flex;
+    justify-content: center;
+    color: #ffff;
 }
-.Sección_de_productos {
-    background-color: whitesmoke;
-    line-height: .5em;
+i {
+    font-size: 4em;
+    color: #ffff;
+}
+h3 {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.Iconaws {
+    padding: 4em;
+    text-align: center;
+}
+
+.Foto_Iguanas {
+    background-color: #000000;
+    padding: 8em;
+    flex-direction: row;
+    align-content: space-between;
+    margin: 0 250px;
    
 }
-.Pie_de_Página{
-    background-color: #414143;
-    text-align: center;
-    padding: .8em;
-    color:white;
-    cursor: pointer; 
+.img3 {
+    margin: 10px;
+    width: 316px;
+    height: 202px;
+ 
 }
-.Pie_de_Página:hover{
-    color:green
+
+footer {
+    background-color: #1E1A13;
+    font-family: 'Raleway', sans-serif;
+    color: #ffff;
+    padding: 3em;
+    height: 102px;
+    
+}
+.web { 
+    text-align: center;
 }
